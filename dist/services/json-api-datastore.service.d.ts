@@ -25,7 +25,7 @@ export declare class JsonApiDatastore {
     private getRelationships(data);
     private extractQueryData<T>(res, modelType);
     private extractRecordData<T>(res, modelType, model?);
-    protected handleError(error: any): ErrorObservable;
+    protected handleError(error: any): ErrorObservable<any>;
     private getOptions(customHeaders?);
     private toQueryString(params);
     addToStore(models: JsonApiModel | JsonApiModel[]): void;
