@@ -7,7 +7,6 @@ npm-debug.log
 # *.map
 # *.d.ts
 # *.metadata.json
-src/compiled
 
 # JetBrains
 .idea
