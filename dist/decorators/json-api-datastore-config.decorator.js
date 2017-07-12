@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function JsonApiDatastoreConfig(config) {
     if (config === void 0) { config = {}; }
     return function (target) {

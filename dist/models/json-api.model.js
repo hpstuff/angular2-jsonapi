@@ -1,5 +1,6 @@
 "use strict";
-var _ = require('lodash');
+Object.defineProperty(exports, "__esModule", { value: true });
+var _ = require("lodash");
 var JsonApiModel = (function () {
     function JsonApiModel(_datastore, data) {
         this._datastore = _datastore;

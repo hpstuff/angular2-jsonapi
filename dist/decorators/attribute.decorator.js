@@ -1,5 +1,6 @@
 "use strict";
-var moment = require('moment');
+Object.defineProperty(exports, "__esModule", { value: true });
+var moment = require("moment");
 function Attribute(config) {
     if (config === void 0) { config = {}; }
     return function (target, propertyName) {
